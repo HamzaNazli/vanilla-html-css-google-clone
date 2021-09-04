@@ -1,6 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
 
 *{
-    font-family: 'Ubuntu',sans-serif;
+    font-family: arial,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav{
+    float: right;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+    padding: 0 8px;
+}
+
+nav svg{
+    height: 25px;
+    padding: 0 8px;
+}
+
+.menu-links{
+    font-size: 13px;
+    padding-top: 9px;
+}
+
+#sign-in{
+    background-color: #1a73e8;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 9px 23px;
+    font-size: 14px;
+    border-radius: 4px;
+    letter-spacing: 0.25px;
+}
+
+#menu-svg{
+    padding-top: 4.5px;
+    z-index: 2;
+}
+
+#svg-bg{
+    display: none;
+}
+
+#menu-svg:hover #svg-bg{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #EFF0F0;
+    opacity: 0.5;
+    position: relative;
+    top: -36px;
+    z-index: 3;
+}
+
+.menu-links:hover{
+    text-decoration: underline;
+}
+
+#sign-in:hover{
+    background-color: #2b7de9;
+    border: 1px solid rgb(234, 239, 247);
     
 }
