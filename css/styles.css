@@ -59,7 +59,6 @@ nav svg{
     opacity: 0.5;
     position: relative;
     top: -36px;
-    z-index: 3;
 }
 
 .menu-links:hover{
@@ -68,6 +67,105 @@ nav svg{
 
 #sign-in:hover{
     background-color: #2b7de9;
-    border: 1px solid rgb(234, 239, 247);
-    
+    border: 1px solid #8cb8f3;
+    /* box-shadow: 5px 5px 7px 0px #4b70de; */
+}
+
+.middle{
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+
+.middle img{
+    width: 300px;
+    transform: translate(50%);
+}
+
+#search{
+    height: 44px;
+    width: 582px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    margin: auto;
+}
+
+#search svg{
+    position: absolute;
+}
+
+#search-logo path{
+    fill: #9aa0a6;
+}
+
+#search-logo{
+    height: 20px;
+    left: 2.36%;
+    top: 12px;
+}
+
+#mic-logo{
+    height: 24px;
+    width: 24px;
+    right: 2.36%;
+    top: 10px;
+}
+
+#search input{
+    height: 34px;
+    margin: 5px 0;
+    width: 85%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: rgba(0,0,0,0.87);
+}
+
+#search:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.button{
+    top: 3px;
+}
+
+.button a{
+    text-decoration: none;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    padding: 9px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    height: 36px;
+    min-width: 54px;
+    margin: 11px 4px;
+}
+
+.button a:hover{
+    box-shadow: 0 1px 1px rgb(0,0,0,0.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.middle div p{
+    font-size: small;
+}
+
+.middle div p a{
+    padding: 0 3px;
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.middle div p a:hover{
+    text-decoration: underline;
+}
+
+.middle div{
+    position: relative;
+    margin-top: 35px;
 }
