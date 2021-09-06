@@ -43,7 +43,6 @@ nav svg{
 
 #menu-svg{
     padding-top: 4.5px;
-    z-index: 2;
 }
 
 #svg-bg{
@@ -213,6 +212,7 @@ footer{
     font-size: 14px;
     padding: 15px;
     display: inline-block;
+    
 }
 
 #footer-base .base-1{
@@ -223,7 +223,7 @@ footer{
     float: right;
 }
 
-@media all and (max-width: 686px){
+@media all and (max-width: 663px){
    
     #footer-base .base-1{
         float: none;
@@ -234,16 +234,16 @@ footer{
     }
 }
 
-@media all and (min-width: 686px) and (max-width: 1200px){
+@media all and (min-width: 663px) and (max-width: 1200px){
    
     #footer-base .base-1{
         position: relative;
-        left: calc((100% - 645px)/3);
+        left: calc((100% - 623.9px)/3);
     }
     
     #footer-base .base-2{
         position: relative;
-        right: calc((100% - 645px)/3);
+        right: calc((100% - 623.9px)/3);
     }
 }
-/*Break points----> 1200,663,686,600*/
+
