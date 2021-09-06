@@ -14,7 +14,7 @@ nav{
 }
 
 nav a{
-    color: black;
+    color: rgba(0,0,0,0.87);
     text-decoration: none;
     list-style-type: none;
     float: left;
